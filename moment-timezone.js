@@ -31,7 +31,7 @@
 		guesses = {},
 		cachedGuess,
 
-		momentVersion = moment.version.split('.'),
+		momentVersion = moment.default.version.split('.'),
 		major = +momentVersion[0],
 		minor = +momentVersion[1];
 
