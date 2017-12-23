@@ -23,6 +23,7 @@
 	// 	logError('Moment Timezone ' + moment.tz.version + ' was already loaded ' + (moment.tz.dataVersion ? 'with data from ' : 'without any data') + moment.tz.dataVersion);
 	// 	return moment;
 	// }
+	moment = moment.default
 
 	var VERSION = "0.5.14",
 		zones = {},
